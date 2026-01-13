@@ -1,8 +1,7 @@
-package hashMapTask;
+package hashmap_and_own_exception_task;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.UUID;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,7 +11,7 @@ public class Main {
         addStudent(students, new Student("2", "Света", 22));
         addStudent(students, new Student("3", "Алиса", 19));
 
-        Student foundStudent = findStudentById(students, "2");
+        Student foundStudent = findStudentById(students, "4");
         System.out.println("Найден студент: " + foundStudent);
 
         removeStudentById(students, "1");
@@ -26,7 +25,11 @@ public class Main {
     }
 
     static Student findStudentById(Map<String, Student> students, String studentId) {
-        return students.get(studentId);
+        Student student = students.get(studentId);
+        if (student == null) {
+            throw new StudentNotFoundException("Студент с ID " + studentId + " не найден");
+        }
+        return student;
     }
 
     static void removeStudentById(Map<String, Student> students, String studentId) {

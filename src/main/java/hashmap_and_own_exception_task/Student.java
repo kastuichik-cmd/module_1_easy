@@ -1,4 +1,4 @@
-package hashMapTask;
+package hashmap_and_own_exception_task;
 
 public class Student {
     private String studentId;

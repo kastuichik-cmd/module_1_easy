@@ -1,4 +1,4 @@
-package interfacesAbstractsTask;
+package Interfaces_and_abstraction_task;
 
 public class Circle extends Shape implements Drawable {
     private double radius;

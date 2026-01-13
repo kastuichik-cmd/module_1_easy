@@ -1,4 +1,4 @@
-package OOPIntroductionTask;
+package oop_introduction_task;
 
 public class StudentEqualityTest {
     public static void main(String[] args) {

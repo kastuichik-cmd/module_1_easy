@@ -1,4 +1,4 @@
-package interfacesAbstractsTask;
+package Interfaces_and_abstraction_task;
 
 import java.util.ArrayList;
 import java.util.List;

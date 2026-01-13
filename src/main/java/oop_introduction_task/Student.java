@@ -1,4 +1,4 @@
-package OOPIntroductionTask;
+package oop_introduction_task;
 
 import java.util.Objects;
 

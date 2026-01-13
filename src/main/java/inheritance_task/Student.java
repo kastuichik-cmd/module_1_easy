@@ -1,4 +1,4 @@
-package InheritanceTask;
+package inheritance_task;
 
 public class Student extends Person {
 

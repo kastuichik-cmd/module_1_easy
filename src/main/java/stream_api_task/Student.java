@@ -1,4 +1,4 @@
-package streamApiTask;
+package stream_api_task;
 
 public class Student {
     private String name;

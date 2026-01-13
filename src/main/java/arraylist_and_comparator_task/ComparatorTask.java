@@ -1,4 +1,6 @@
-package OOPIntroductionTask;
+package arraylist_and_comparator_task;
+
+import oop_introduction_task.Student;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,8 +1,8 @@
-package OOPIntroductionTask;
+package oop_introduction_task;
 
 import java.util.List;
 
-public class StudentMain {
+public class Main {
     public static void main(String[] args) {
         List<Student> students = List.of(
                 new Student("Паша", 28, 7.0),
